@@ -1,0 +1,137 @@
+div{
+    /*border:1px solid;*/
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #4489A9;
+
+}
+
+.clearfix:after {
+    display: block;
+    content: " ";
+    visibility: hidden;
+    clear: both;
+    height: 0px;
+}
+
+.centerpage {
+    height: auto;
+    width: 960px;
+    margin-left: 178px;
+}
+
+.header {
+    overflow: hidden;
+    height: 190px;
+}
+
+.upHeader {
+    background-color: #11516F;
+    height: 40px;
+
+}
+
+.lowHeader {
+    background-image: url("resources/search_bk.png");
+    background-repeat: no-repeat;
+    height: 151px;
+}
+
+.lowHeaderWrapper{
+/*border: 1px solid;*/
+    margin: 34px 0px 0px 42px;
+    height: 100px;
+    width: 91%;
+
+}
+.logo {
+    /*border: 1px solid;*/
+    height: 95%;
+    width: 40%;
+    margin: 0px 0px 3px 0px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.search {
+    /*border: 1px solid;*/
+    height: 50px;
+}
+
+.searchWrapper{
+    border: 1px solid;
+    position: relative;
+    margin-left: 5%;
+    width: 50%;*/
+    height: 90%;
+    display: inline-block;
+    overflow: hidden;
+    float: right;
+}
+.searchBtn{
+
+    border: 1px solid;
+    display: inline-block;
+    float: right;
+    margin-bottom: 0px;
+}
+
+.searchText{
+    /*border: 1px solid;*/
+    height: 40px;
+    width: 413px;
+    margin: 13px 0px 0px 7px;;
+    font-size: 17px;
+    color: white;
+}
+
+.searchInput{
+    width: 78%;
+    height: 42px;
+    margin: 5px 0px 0px 9px;
+    border-radius: 9px;
+    padding-left: 20px;
+    float: left;
+    margin-right: 5px;
+    border: none;
+}
+
+.topHeaderItems {
+    margin: 12px 0px 0px 20px;;
+    padding: 0px;
+}
+
+.topHeaderItems li {
+    display: inline;
+    font-size: 13px;
+    color: white;
+}
+
+/*FLICKETY*/
+.flickity-page-dots {
+  bottom: 1000px;
+  left: 400px;
+    display: inline-block;
+    float: right;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
